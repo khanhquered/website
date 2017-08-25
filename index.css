@@ -6,8 +6,14 @@ html {
   width: 100%;
   height: 100%; }
 
+#page-wrap {
+     width: 800px;
+     margin: 0 auto;
+}
+
 body {
-  font-family: 'Intro', 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
+  font-family: 'Intro', 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 72px; }
 
 p {
 	color: pink ;
