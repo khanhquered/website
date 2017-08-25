@@ -17,8 +17,11 @@ body {
 
 .pink {
 	color: pink ;
+	padding-top: 100px;
 }
 
 .hot-pink {
 	color: #ff1256;
+	padding-left: 25px ;
+	padding-top: 100px ;
 }
