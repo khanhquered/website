@@ -8,7 +8,7 @@ html {
 
 #page-wrap {
      width: 800px;
-     margin: auto;
+     margin: 0 auto;
 }
 
 body {
@@ -17,11 +17,18 @@ body {
 
 .black {
 	color: #000000 ;
-	padding-top: 100px;
+	position: absolute;
+	top: 40%;
 }
 
 .hot-pink {
 	color: #ff1256;
-	padding-left: 5px ;
-	padding-top: 100px ;
+	position: absolute;
+	top: 40%;
+}
+
+#photo {
+	position: absolute;
+	top: 25% ;
+	right: 28% ;
 }
