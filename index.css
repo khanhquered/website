@@ -15,6 +15,10 @@ body {
   font-family: 'Intro', 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   font-size: 72px; }
 
-p {
+.pink {
 	color: pink ;
+}
+
+.hot-pink {
+	color: #ff1256;
 }
