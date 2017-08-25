@@ -8,20 +8,20 @@ html {
 
 #page-wrap {
      width: 800px;
-     margin: 0 auto;
+     margin: auto;
 }
 
 body {
   font-family: 'Intro', 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   font-size: 72px; }
 
-.pink {
-	color: pink ;
+.black {
+	color: #000000 ;
 	padding-top: 100px;
 }
 
 .hot-pink {
 	color: #ff1256;
-	padding-left: 25px ;
+	padding-left: 5px ;
 	padding-top: 100px ;
 }
