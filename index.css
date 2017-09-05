@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: 'Intro', 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Archivo Black', 'Intro', Arial, sans-serif;
   font-size: 72px; }
 
 a {
@@ -30,13 +30,13 @@ a {
 .black {
 	color: #000000 ;
 	position: absolute;
-	top: 40%;
+	top: 35%;
 }
 
 .hot-pink {
 	color: #ff1256;
 	position: absolute;
-	top: 40%;
+	top: 35%;
 }
 
 .subtext {
@@ -45,14 +45,15 @@ a {
 
 }
 
+
 #photo {
 	position: absolute;
-	top: 25% ;
-	right: 28% ;
+	top: 22% ;
+	right: 25% ;
 }
 
 #tagline {
 	position: absolute;
-	bottom: 22%;
+	bottom: 24%;
 
 }
