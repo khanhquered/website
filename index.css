@@ -15,6 +15,18 @@ body {
   font-family: 'Intro', 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   font-size: 72px; }
 
+a {
+ 	text-decoration: none;
+ }
+
+ a:link, a:visited {
+ 	color: black;
+ }
+
+ a:hover {
+ 	color: gray;
+ }
+
 .black {
 	color: #000000 ;
 	position: absolute;
@@ -42,5 +54,5 @@ body {
 #tagline {
 	position: absolute;
 	bottom: 22%;
-	
+
 }
