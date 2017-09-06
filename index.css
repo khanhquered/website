@@ -20,7 +20,7 @@ body {
     .hot-pink {top: 70%;}
     .black {top: 80%;}
     #photo {display: block;}
-    #tagline {display: block;}
+    .subtext {display: block;}
   }
 
 a {
