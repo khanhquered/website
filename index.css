@@ -23,15 +23,18 @@ body {
     	}
     .hot-pink {
     	position: absolute;
-    	top: 70%;
+    	color: #000000;
+    	display: block;
+    	
     	}
     .black {
     	position: absolute;
-    	top: 80%;
+    	display: block;
+    	
     	}
     #photo {
     	position: absolute;
-    	top: 20%;
+    	
     	display: block;
     	}
     .subtext {
