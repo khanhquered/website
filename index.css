@@ -15,12 +15,24 @@ body {
   font-family: 'Archivo Black', 'Intro', Arial, sans-serif;
   font-size: 72px; }
 
+
+/* responsive design for mobile */
 @media screen and (max-width:500px) {
-    body {font-size: 36px; }
-    .hot-pink {top: 70%;}
-    .black {top: 80%;}
-    #photo {display: block;}
-    .subtext {display: block;}
+    body 
+    	{font-size: 36px;
+    	}
+    .hot-pink 
+    	{top: 70%;
+    	}
+    .black 
+    	{top: 80%;
+    	}
+    #photo 
+    	{display: block;
+    	}
+    .subtext 
+    	{display: block;
+    	}
   }
 
 a {
