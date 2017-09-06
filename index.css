@@ -16,8 +16,11 @@ body {
   font-size: 72px; }
 
 @media screen and (max-width:500px) {
-    body { font-size: 36px; }
+    body {font-size: 36px; }
+    .hot-pink {top: 70%;}
+    .black {top: 80%;}
     #photo {display: block;}
+    #tagline {display: block;}
   }
 
 a {
