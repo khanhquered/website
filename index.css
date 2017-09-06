@@ -15,19 +15,10 @@ body {
   font-family: 'Archivo Black', 'Intro', Arial, sans-serif;
   font-size: 72px; }
 
-@media only screen and (max-width: 500px) {
-    .gridmenu {
-        width:100%;
-    }
-
-    .gridmain {
-        width:100%;
-    }
-
-    .gridright {
-        width:100%;
-    }
-}
+@media screen and (max-width:500px) {
+    body { font-size: 36px; }
+    #photo {display: block;}
+  }
 
 a {
  	text-decoration: none;
