@@ -50,7 +50,7 @@ a {
 .subtext {
 	color: #000000 ;
 	font-size: 20px ;
-
+	display: inline;
 }
 
 
