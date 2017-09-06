@@ -18,20 +18,24 @@ body {
 
 /* responsive design for mobile */
 @media screen and (max-width:500px) {
-    body 
-    	{font-size: 36px;
+    body {
+    	font-size: 36px;
     	}
-    .hot-pink 
-    	{top: 70%;
+    .hot-pink {
+    	position: absolute;
+    	top: 70%;
     	}
-    .black 
-    	{top: 80%;
+    .black {
+    	position: absolute;
+    	top: 80%;
     	}
-    #photo 
-    	{display: block;
+    #photo {
+    	position: absolute;
+    	top: 20%;
+    	display: block;
     	}
-    .subtext 
-    	{display: block;
+    .subtext {
+    	display: block;
     	}
   }
 
