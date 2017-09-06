@@ -21,24 +21,26 @@ body {
     body {
     	font-size: 36px;
     	}
-    .hot-pink {
+    
+    body .black {
     	position: absolute;
-    	color: #000000;
-    	display: block;
-    	
-    	}
-    .black {
-    	position: absolute;
-    	display: block;
-    	
-    	}
-    #photo {
-    	position: absolute;
-    	
+    	top: 50%;
     	display: block;
     	}
-    .subtext {
+
+    body .hot-pink {
+    	position: absolute;
+    	top:50%;
     	display: block;
+    	}
+    body #photo {
+    	position: absolute;
+    	top: 5%;
+    	display: block;
+    	}
+    body .subtext {
+    	display: block;
+    	top: 90%;
     	}
   }
 
