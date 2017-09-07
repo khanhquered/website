@@ -40,7 +40,7 @@ body {
     	}
     body .subtext {
     	display: block;
-    	top: 90%;
+    	bottom: 5%;
     	}
   }
 
