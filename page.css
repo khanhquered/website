@@ -100,12 +100,19 @@ body {
 	font-size: 18px; 
 }
 
+p {
+	color: #333;
+	font-family: 'Nunito', sans-serif;
+	font-size: 18px; 
+	
+}
+
 .title {
 	color: #000;
 	display: inline-block;
 	font-family: 'Archivo Black', sans-serif;
 	font-size: 35px; 
-	padding-bottom: 25px;
+	
 }
 
 
