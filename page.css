@@ -12,8 +12,8 @@ html {
 
 #page-wrap {
 	display: inline-block;
-    width: 900px;
-    margin: 50px 0px 50px 325px;
+    width: 600px;
+    margin: 50px 0px 50px 375px;
 }
 
 #menu-bar {
@@ -50,6 +50,8 @@ a:active {
 	color: #000;
 	width: 125px;
 	display: inline-block;
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 35px; 
 }
 
 .pic {
@@ -68,7 +70,7 @@ a:active {
 
 .item {
 	margin-left: 50px;
-	font-family: 'Archivo Black', 'Francois One', sans-serif;
+	font-family: 'Archivo Black', sans-serif;
 	font-size: 25px;
 	font-weight: 100;
 	color: #ddd;
@@ -76,7 +78,7 @@ a:active {
 
 .special_item {
 	margin-left: 50px;
-	font-family: 'Archivo Black', 'Francois One', sans-serif;
+	font-family: 'Archivo Black', sans-serif;
 	font-size: 25px;
 	font-weight: 100;
 	color: #ff1256;
@@ -91,55 +93,26 @@ hr {
     padding: 0;
 }
 
+
 body {
+	color: #333;
+	font-family: 'Nunito', sans-serif;
+	font-size: 18px; 
+}
+
+.title {
 	color: #000;
+	display: inline-block;
 	font-family: 'Archivo Black', sans-serif;
 	font-size: 35px; 
+	padding-bottom: 25px;
 }
 
-
-.column {
-	vertical-align: top;
-	width: 250px;
-	margin: 0px 0px 0px 30px;
-	display: inline-block;
-}
 
 .image {
 	
-	margin: 0px 0px 25px 0px;
+	margin: 25px 0px 0px 0px;
 	padding: 0px 0px;
 	position: relative;
 	
-}
-
-.image_description {
-  position: absolute;
-  height: inherit;
-  width: inherit;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding-top: 20%;
-  text-align: center;
-
-  color: #fff;
-  visibility: hidden;
-  opacity: 0;
-
-  font-family: 'Francois One', sans-serif;
-  text-shadow: 2px 2px 2px #333;
-
-  /* transition effect. not necessary */
-  transition: opacity .2s, visibility .2s;
-}
-
-.image:hover {
-	opacity: 0.75;
-}
-
-.image:hover .image_description {
-  visibility: visible;
-  opacity: 1;
 }

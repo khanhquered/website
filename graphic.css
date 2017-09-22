@@ -102,7 +102,7 @@ img:hover {
 }
 
 .column {
-	
+	vertical-align: top;
 	width: 250px;
 	margin: 0px 0px 0px 30px;
 	display: inline-block;
