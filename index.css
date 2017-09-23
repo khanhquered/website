@@ -152,5 +152,8 @@ hr {
     #menu-bar {
     	position: absolute;
     	visibility: visible;
-    	}  
+    }
+    #page-wrap {
+    	width: 500px;
+    }  
   }
