@@ -115,7 +115,7 @@ img:hover {
 }
 
 /* responsive design for mobile */
-@media screen and (max-width:700px) {
+@media screen and (max-width:1200px) {
     #menu-bar {
     	position: absolute;
     	}  
