@@ -7,42 +7,16 @@ html {
   height: 100%; }
 
 #page-wrap {
-     width: 800px;
+     width: 900px;
      margin: 0 auto;
 }
 
 body {
-  font-family: 'Archivo Black', 'Intro', Arial, sans-serif;
+  font-family: 'Archivo Black', Arial, sans-serif;
   font-size: 72px; }
 
 
-/* responsive design for mobile */
-@media screen and (max-width:500px) {
-    body {
-    	font-size: 36px;
-    	}
-    
-    body .black {
-    	position: absolute;
-    	top: 50%;
-    	display: block;
-    	}
 
-    body .hot-pink {
-    	position: absolute;
-    	top:50%;
-    	display: block;
-    	}
-    body #photo {
-    	position: absolute;
-    	top: 5%;
-    	display: block;
-    	}
-    body .subtext {
-    	display: block;
-    	bottom: 5%;
-    	}
-  }
 
 a {
  	text-decoration: none;
@@ -56,16 +30,23 @@ a {
  	color: gray;
  }
 
+/* padding is top, right, bottom, left*/
+
 .black {
 	color: #000000 ;
-	position: absolute;
-	top: 35%;
+	height: 100px;
+	width: 500px;
+	position: inline-block;
+	margin: 10px 0px -32px 50px;
 }
 
 .hot-pink {
 	color: #ff1256;
-	position: absolute;
-	top: 30%;
+	height: 100px;
+	width: 500px;
+	position: inline-block;
+	margin: 0px 0px 0px 50px;
+	
 }
 
 .subtext {
@@ -76,13 +57,14 @@ a {
 
 
 #photo {
-	position: absolute;
-	top: 22% ;
-	right: 25% ;
+	width: 250px;
+	height: 350px;
+	position: inline-block;
+	margin: 150px 0px -200px 480px;
 }
 
 #tagline {
-	position: absolute;
-	bottom: 24%;
+	position: inline-block;
+	margin: -70px 0px 0px 50px;
 
 }
