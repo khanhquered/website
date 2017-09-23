@@ -143,3 +143,10 @@ body {
   visibility: visible;
   opacity: 1;
 }
+
+/* responsive design for mobile */
+@media screen and (max-width:700px) {
+    #menu-bar {
+    	position: absolute;
+    	}  
+  }
