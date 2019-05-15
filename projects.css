@@ -98,6 +98,13 @@ body {
 	font-size: 35px; 
 }
 
+p {
+	color: #333;
+	font-family: 'Nunito', sans-serif;
+	font-size: 18px; 
+	text-align: justify;
+	
+}
 
 .column {
 	vertical-align: top;
